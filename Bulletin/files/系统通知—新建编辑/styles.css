@@ -2401,3 +2401,33 @@
   width:83px;
   word-wrap:break-word;
 }
+#u774_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:676px;
+  height:19px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-size:16px;
+}
+#u774 {
+  position:absolute;
+  left:1511px;
+  top:970px;
+  width:676px;
+  height:19px;
+  font-size:16px;
+}
+#u775 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:676px;
+  word-wrap:break-word;
+}
