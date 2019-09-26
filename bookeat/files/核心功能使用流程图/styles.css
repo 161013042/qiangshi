@@ -409,21 +409,21 @@
   left:-4px;
   top:0px;
   width:8px;
-  height:50px;
+  height:48px;
 }
 #u28_seg1 {
   position:absolute;
   left:-448px;
-  top:42px;
+  top:40px;
   width:452px;
   height:8px;
 }
 #u28_seg2 {
   position:absolute;
   left:-448px;
-  top:42px;
+  top:40px;
   width:8px;
-  height:67px;
+  height:69px;
 }
 #u28_seg3 {
   position:absolute;
@@ -434,8 +434,8 @@
 }
 #u29 {
   position:absolute;
-  left:-281px;
-  top:38px;
+  left:-282px;
+  top:36px;
   width:100px;
   visibility:hidden;
   word-wrap:break-word;
