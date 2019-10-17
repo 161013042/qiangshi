@@ -65,7 +65,7 @@
         <img id="u2_img" class="img " src="images/需求简述/u2.png"/>
         <!-- Unnamed () -->
         <div id="u3" class="text" style="visibility: visible;">
-          <p><span><br></span></p><p><span>【云平台&gt;门店端&gt;财务模块&gt;售后开票】增加发票的作废和冲红功能</span></p><p><span><br></span></p><p><span>【新增8个开票状态选项】</span></p><p><span><br></span></p><p><span>1、已开红字电子普票；</span></p><p><span><br></span></p><p><span>2、已开红字纸质普票；</span></p><p><span><br></span></p><p><span>3、已开红字纸质专票；</span></p><p><span><br></span></p><p><span>4、冲红申请；</span></p><p><span><br></span></p><p><span>5、冲红申请失败；</span></p><p><span><br></span></p><p><span>6、作废申请；</span></p><p><span><br></span></p><p><span>7、已作废；</span></p><p><span><br></span></p><p><span>8、作废申请失败；</span></p><p><span><br></span></p><p><span>1、在【财务管理&gt;售后开票管理列表&gt;详情】页增加“冲红”、“作废”、“重新开票按钮”</span></p><p><span>&nbsp;&nbsp; 1.1、“冲红”、“作废”、“重新开票按钮”，根据不同发票的不同状态，显示这三个按钮</span></p><p><span>&nbsp;</span></p><p><span>2、作废：</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.1、已开票成功，获取到发票代码和发票号码的纸质普票纸质专票，可进行作废处理</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.2、电子普票无法进行进行作废操作；开票如期跨月的发票一律不能作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.3、发票作废需由对应门店财务经理审批，才可作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.4、作废申请中的发票可，可查看审批流程</span></p><p><span><br></span></p><p><span>3、冲红</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.1、已开票成功，获取到发票代码和发票号码发票，可进行作废处理</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.2、作废和冲红不能同时进行，已经发起作废的发票不能进行冲红；同理，已经发起冲红的发票不能进行作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.3、纸质专用发票，用户需在航天金税的开票软件上填写“红字发票增值税专用信息表”，获取到信息表编码，才可到云平台进行冲红</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.4、但作废申请失败的发票可继续进行冲红或作废申请；同理，冲红申请失败的发票可继续进行冲红或作废申请</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.5、冲红申请中的发票，可查看审批流程</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.6、冲红成功的发票，航信接口会返回成功代码和对应的红字发票代码和发票号码</span></p><p><span><br></span></p><p><span>4、重新开票</span></p><p><span>&nbsp;&nbsp;&nbsp; 4.1、用户发起作废申请或冲红申请后，可在该发票详情页“重新开票”，即点击“重新开票”按钮，进行【售后开票管理—新增】页面，将原蓝字发票的内容填入对应的输入框，用户可对内容进行校验修改，提交确认开具新的发票</span></p><p><span>&nbsp;&nbsp;&nbsp; </span></p><p><span>5、C端小程序</span></p><p><span>&nbsp;&nbsp; 5.1、小程序用户开具的发票，若在云平台进行了冲红或作废，需将冲红成功和作废成功的状态同步到对应用户的开票记录中</span></p><p><span>&nbsp;&nbsp; 5.2、需在对应冲红成功和作废成功的发票的详情页展示冲红原因和作废原因</span></p><p><span>&nbsp;&nbsp; 5.3、已作废或冲红的发票，用户可根据之前其对应的工单重新开票</span></p><p><span><br></span></p><p><span><br></span></p>
+          <p><span><br></span></p><p><span>【需求简述】</span></p><p><span><br></span></p><p><span>【云平台&gt;门店端&gt;财务模块&gt;售后开票】增加发票的作废和冲红功能</span></p><p><span><br></span></p><p><span>【新增8个开票状态选项】</span></p><p><span>1、已开红字电子普票；</span></p><p><span>2、已开红字纸质普票；</span></p><p><span>3、已开红字纸质专票；</span></p><p><span>4、冲红申请中；</span></p><p><span>5、冲红申请失败；</span></p><p><span>6、作废申请中；</span></p><p><span>7、已作废；</span></p><p><span>8、作废申请失败；</span></p><p><span><br></span></p><p><span>1、在【财务管理&gt;售后开票管理列表&gt;详情】页增加“冲红”、“作废”、“重新开票按钮”</span></p><p><span>&nbsp;&nbsp; 1.1、“冲红”、“作废”、“重新开票按钮”，根据不同发票的不同状态，显示这三个按钮</span></p><p><span><br></span></p><p><span>2、作废：</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.1、已开票成功，获取到发票代码和发票号码的纸质普票纸质专票，可进行作废处理</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.2、电子普票无法进行进行作废操作；开票日期跨月的发票一律不能作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.3、发票作废需由对应门店财务经理审批，才可作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.4、作废申请中的发票可，可查看审批流程</span></p><p><span><br></span></p><p><span>3、冲红</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.1、已开票成功，获取到发票代码和发票号码发票，可进行作废处理</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.2、作废和冲红不能同时进行，已经发起作废的发票不能进行冲红；同理，已经发起冲红的发票不能进行作废</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.3、纸质专用发票，用户需在航天金税的开票软件上填写“红字发票增值税专用信息表”，获取到信息表编码，才可到云平台进行冲红</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.4、但作废申请失败的发票可继续进行冲红或作废申请；同理，冲红申请失败的发票可继续进行冲红或作废申请</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.5、发票冲红需由对应门店经理审批；冲红申请中的发票，可查看审批流程</span></p><p><span>&nbsp;&nbsp;&nbsp; 3.6、冲红成功的发票，航信接口会返回成功代码和对应的红字发票代码和发票号码</span></p><p><span><br></span></p><p><span>4、重新开票</span></p><p><span>&nbsp;&nbsp;&nbsp; 4.1、发票冲红或作废成功，用户可根据该发票对应的工单，重新开票</span></p><p><span>&nbsp;&nbsp;&nbsp; 4.2、可在该发票详情页“重新开票”，即点击“重新开票”按钮，进行【售后开票管理—新增】页面，将原蓝字发票的内容填入对应的输入框，用户可对内容进行校验修改，提交确认开具新的发票</span></p><p><span>&nbsp;&nbsp;&nbsp; 4.3、用户在【售后开票管理—新增】页面，点击“确认开票”，系统先检查该用户是否对输入框中的文字进行修改，若为修改任何信息，弹窗提醒用户：“您未修改任何信息，是否确认重新开票？”；若用户对页面的内容信息进行了修改，则弹窗显示字段：“是否确认重新开票？”</span></p><p><span>&nbsp;&nbsp;&nbsp; </span></p><p><span>5、C端小程序</span></p><p><span>&nbsp;&nbsp; 5.1、小程序用户开具的发票，若在云平台进行了冲红或作废，需将冲红成功和作废成功的状态同步到对应用户的开票记录中</span></p><p><span>&nbsp;&nbsp; 5.2、需在对应冲红成功和作废成功的发票的详情页展示冲红原因和作废原因</span></p><p><span>&nbsp;&nbsp; 5.3、已作废或冲红的发票，用户可根据之前其对应的工单重新开票</span></p><p><span>&nbsp;&nbsp; 5.4、“已开红字纸质专票”的发票，其对应的工单不允许重新开票</span></p><p><span><br></span></p><p><span><br></span></p>
         </div>
       </div>
 
@@ -230,7 +230,7 @@
           <img id="u39_img" class="img " src="images/需求简述/u39.png"/>
           <!-- Unnamed () -->
           <div id="u40" class="text" style="visibility: visible;">
-            <p><span>可冲红</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
@@ -239,7 +239,7 @@
           <img id="u41_img" class="img " src="images/需求简述/u39.png"/>
           <!-- Unnamed () -->
           <div id="u42" class="text" style="visibility: visible;">
-            <p><span>可冲红/可作废</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
@@ -293,7 +293,7 @@
           <img id="u53_img" class="img " src="images/需求简述/u13.png"/>
           <!-- Unnamed () -->
           <div id="u54" class="text" style="visibility: visible;">
-            <p><span>冲红申请</span></p>
+            <p><span>冲红申请中</span></p>
           </div>
         </div>
 
@@ -311,7 +311,7 @@
           <img id="u57_img" class="img " src="images/需求简述/u15.png"/>
           <!-- Unnamed () -->
           <div id="u58" class="text" style="visibility: visible;">
-            <p><span>可重新开票</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
@@ -320,7 +320,7 @@
           <img id="u59_img" class="img " src="images/需求简述/u19.png"/>
           <!-- Unnamed () -->
           <div id="u60" class="text" style="visibility: visible;">
-            <p><span>可重新开票</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
@@ -365,7 +365,7 @@
           <img id="u69_img" class="img " src="images/需求简述/u13.png"/>
           <!-- Unnamed () -->
           <div id="u70" class="text" style="visibility: visible;">
-            <p><span>作废申请</span></p>
+            <p><span>作废申请中</span></p>
           </div>
         </div>
 
@@ -383,7 +383,7 @@
           <img id="u73_img" class="img " src="images/需求简述/u15.png"/>
           <!-- Unnamed () -->
           <div id="u74" class="text" style="visibility: visible;">
-            <p><span>可重新开票</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
@@ -392,7 +392,7 @@
           <img id="u75_img" class="img " src="images/需求简述/u19.png"/>
           <!-- Unnamed () -->
           <div id="u76" class="text" style="visibility: visible;">
-            <p><span>可重新开票</span></p>
+            <p><span>——</span></p>
           </div>
         </div>
 
