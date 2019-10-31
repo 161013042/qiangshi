@@ -51,14 +51,14 @@
   left:0px;
   top:0px;
   width:1042px;
-  height:1152px;
+  height:922px;
 }
 #u2 {
   position:absolute;
   left:30px;
   top:65px;
   width:1042px;
-  height:1152px;
+  height:922px;
   font-size:16px;
 }
 #u3 {
@@ -70,8 +70,8 @@
 }
 #u4 {
   position:absolute;
-  left:96px;
-  top:1306px;
+  left:98px;
+  top:1013px;
   width:651px;
   height:459px;
 }
@@ -1172,14 +1172,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:362px;
+  width:305px;
   height:19px;
 }
 #u109 {
   position:absolute;
-  left:96px;
-  top:1277px;
-  width:362px;
+  left:98px;
+  top:967px;
+  width:305px;
   height:19px;
   font-family:'Arial Negreta', 'Arial Normal', 'Arial';
   font-weight:700;
@@ -1190,6 +1190,6 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:362px;
+  width:305px;
   white-space:nowrap;
 }
